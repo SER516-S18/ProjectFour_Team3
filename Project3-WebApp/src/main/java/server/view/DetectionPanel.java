@@ -226,21 +226,6 @@ public class DetectionPanel extends JPanel implements ui{
 		return this.detectionController;
 	}
 
-        public void setFaceDatafromCSV(FaceData facedata){
-            FaceAffectiveData affective = new FaceAffectiveData();
-            affective = facedata.getFaceAffectiveData();
-            FaceExpressionData expressive = new FaceExpressionData();
-            expressive = facedata.getFaceExpressionData();
-            //spinnerUpperFace.setValue(expressive.get);
-            if(expressive.getRaiseBrow() > 0.0){
-                comboUpperFace.setSelectedIndex(1);
-            }
-            else if(expressive.getFurrowBrow() > 0.0){
-                comboUpperFace.setSelectedItem("Furrow Brow");
-                //spinnerUpperFace.setValue(expressive.getFurrowBrow().toString());
-            }
-           
-            
-        }
+        
 }
 
