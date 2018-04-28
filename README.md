@@ -1,5 +1,5 @@
 # ProjectFour_Team - 03
-#### Project 3 for SER516, an emotiv expression application
+#### Project 4 for SER516, an emotiv expression application
 
 ## Import Project on Eclipse
 File >> Import >> Maven >> Existing Maven Projects >> Browse to Project Folder
